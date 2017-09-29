@@ -1,0 +1,59 @@
+/* Add here all your CSS customizations */
+.header-logo {
+	position: relative;
+	top: 10px;
+	left: 50px;
+}
+
+#footer .col-md-7 {
+	position: relative;
+	top: 10px;
+}
+
+#footer .logo {
+	margin-top: -5px;
+	margin-bottom: -25px
+}
+
+#header .header-logo-thumb {
+	float: right;
+	position: relative;
+}
+
+#header .header-logo-thumb img {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	position: relative;
+	margin: 10px 15px 15px 0;
+	left: 925px;
+}
+
+.school {
+	font-size: 145%;
+	position: relative;
+	top:4px;
+}
+
+.dumbbell {
+	font-size: 160%;
+	font-weight: bold;
+	position: relative;
+	top:6px;
+}
+
+.team-bio {
+	position: relative;
+	right: 52px;
+	top: 7px ;
+}
+
+.about-us-thumb {
+	position: relative;
+	left: 80px;
+	top: 50px;
+}
+
+.list-space {
+	margin-left: 80px;
+}
