@@ -44,11 +44,16 @@
 
 .team-bio {
 	position: relative;
-	right: 51px;
+	right: 52px;
 	top: 7px ;
 }
 
-.tirone_profile_thumb {
+.about-us-thumb {
 	position: relative;
-	top: 0px;
+	left: 80px;
+	top: 50px;
+}
+
+.list-space {
+	margin-left: 80px;
 }
