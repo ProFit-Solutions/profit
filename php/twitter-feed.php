@@ -11,10 +11,10 @@ require_once('tweet-php/TweetPHP.php');
 
 // Step 2 - After creating your API Key you will need to take note of following values: "Consumer key", "Consumer secret", "Access token", "Access token secret" and replace the vars below:
 
-$consumer_key = "1111111111111111111111";
-$consumer_secret = "11111111111111111111111111111111111111111";
-$access_token = "1111111111-111111111111111111111111111111111111111";
-$access_secret = "111111111111111111111111111111111111111111111";
+$consumer_key = "TYKBKrZEnzUen0YWkZp9MdTY1";
+$consumer_secret = "wW8sUc5SnwMJ7vdmofK4UKIOIJtYwvHCVP3xLvA97xby7B65ou";
+$access_token = "913176615193944064-GM18C3wYfNGUuZatUcFFwWGuqmNSEcr";
+$access_secret = "ZAsFVKfM3e2cPt6HMyZJmRPAc3jW2E1uVec6sGNBCZ30e";
 
 $twitter_screen_name = $_GET['twitter_screen_name'];
 $tweets_to_display = (isset( $_GET['tweets_to_display'] ) AND $_GET['tweets_to_display'] != '') ? $_GET['tweets_to_display'] : 2;
