@@ -515,7 +515,7 @@
 						<div class="col-md-3">
 							<div class="newsletter">
 								<h4>Newsletter</h4>
-								<p>Keep up on our always evolving product features and technology. Enter your e-mail and subscribe to our newsletter.</p>
+								<p>Keep up on our evolving product features and technology. Enter your e-mail and subscribe to our newsletter.</p>
 			
 								<div class="alert alert-success hidden" id="newsletterSuccess">
 									<strong>Success!</strong> You've been added to our email list.
@@ -523,24 +523,26 @@
 			
 								<div class="alert alert-danger hidden" id="newsletterError"></div>
 			
-								<form id="newsletterForm" action="php/newsletter-subscribe.php" method="POST">
+								<form id="newsletterForm" action="//profit-solutions.us16.list-manage.com/subscribe/post-json?u=d5fa78c4caf22c538adbdfb3f&amp;id=953719fabc" method="POST" name="mc-embedded-subscribe-form" target="_blank" novalidate>
 									<div class="input-group">
-										<input class="form-control" placeholder="Email Address" name="newsletterEmail" id="newsletterEmail" type="text">
+										<input class="form-control" placeholder="Your Email Address" name="newsletterEmail" id="newsletterEmail" type="email" value="" required>
 										<span class="input-group-btn">
-											<button class="btn btn-default" type="submit">Go!</button>
+											<button class="btn btn-default" name="Go!" type="submit">Go!</button>
 										</span>
 									</div>
 								</form>
 							</div>
 						</div>
-						<div class="col-md-3">
-							<h4>Latest Tweets</h4>
-							<div id="tweet" class="twitter" data-plugin-tweets data-plugin-options="{'username': 'Pro_Fit_App', 'count': 2}">
-								<p>Please wait...</p>
-							</div>
+
+						<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+						<script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+
+						<div class="col-md-5">
+						<span class="twitter-feed">
+						<a class="twitter-timeline" data-width="600" href="https://twitter.com/Pro_Fit_App?ref_src=twsrc%5Etfw"><h4>Tweets by ProFit</h4></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 						</div>
 						<div class="col-md-4">
-							<div class="contact-details">
+							<div class="contact-follow">
 								<h4>Contact Us</h4>
 								<ul class="contact">
 									<li><p><i class="fa fa-map-marker"></i> <strong>Address:</strong> Lethbridge, AB Canada</p></li>
@@ -549,12 +551,14 @@
 							</div>
 						</div>
 						<div class="col-md-2">
+							<div class="contact-follow">
 							<h4>Follow Us</h4>
 							<ul class="social-icons">
 								<li class="social-icons-facebook"><a href="http://www.facebook.com/ProFitApplication/" target="_blank" title="ProFit Facebook"><i class="fa fa-facebook"></i></a></li>
 								<li class="social-icons-linkedin"><a href="http://www.instagram.com/profit_app/" target="_blank" title="ProFit Instagram"><i class="fa fa-instagram"></i></a></li>
 								<li class="social-icons-twitter"><a href="http://www.twitter.com/Pro_Fit_App/" target="_blank" title="ProFit Twitter"><i class="fa fa-twitter"></i></a></li>
 							</ul>
+						</div>
 						</div>
 					</div>
 				</div>
